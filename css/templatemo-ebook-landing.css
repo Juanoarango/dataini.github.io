@@ -7,6 +7,23 @@
 .logoancho{
   width: 60%;
 }
+.contactowp{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 118px;
+  padding-bottom: 16px;
+  background: transparent;
+  z-index: 2000;
+  padding-right: 20px;
+}
+.logowp{
+  width: 80px !important;
+  height: 80px !important;
+  font-size: 47px !important;
+  padding: 17px;
+  float: right;
+}
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -555,7 +572,7 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('../images/businessman-sitting-by-table-cafe6.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -571,7 +588,9 @@ strong {
   bottom: 0;
   left: 0;
   pointer-events: none;
-  background-color: rgba(0, 0, 0, 0.45);
+  /* background-color: rgba(0, 0, 0, 0.45); */
+  background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.4515931372549019) 0%, rgba(0,0,0,0.2555147058823529) 61%, rgba(255,255,255,0.6280637254901961) 100%);
 }
 
 .hero-section .row {
@@ -981,7 +1000,7 @@ strong {
   }
   
   .navbar {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(255, 255, 255, 0.80);
   }
 
   .navbar-expand-lg .navbar-nav {
@@ -1009,6 +1028,9 @@ strong {
   .ebook-download-form {
     padding: 30px;
   }
+  .logoancho {
+    width: 100%;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -1034,6 +1056,7 @@ strong {
 
   .navbar-brand {
     font-size: var(--p-font-size);
+    width: 50%;
   }
 
   .navbar-brand-icon {
